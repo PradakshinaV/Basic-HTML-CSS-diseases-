@@ -1,0 +1,131 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f9f9f9, #e6ffe6);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    text-align: center;
+    color: #2f4f4f;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    background-color: #228B22;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #b30000;
+}
+
+/* Underline class */
+.underline {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #444;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2e8b57;
+    color: white;
+}
+
+td {
+    background-color: #f0f8ff;
+}
+
+/* Lists */
+ul {
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Card style for sections */
+.section-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1);
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.nav-links a {
+    margin: 8px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #0066cc;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: darkred;
+}
+p {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
